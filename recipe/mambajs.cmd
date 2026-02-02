@@ -1,2 +1,2 @@
 @echo off
-node "%~dp0..\lib\mambajs\mambajs.js" %*
+node "%CONDA_PREFIX%\lib\mambajs\mambajs.js" %*
