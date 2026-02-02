@@ -1,2 +1,2 @@
 @echo off
-node "%PREFIX%\lib\mambajs\mambajs.js" %*
+node "%~dp0..\lib\mambajs\mambajs.js" %*
