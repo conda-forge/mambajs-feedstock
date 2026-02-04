@@ -1,6 +1,6 @@
 context:
   name: mambajs
-  version: "0.20.2"
+  version: "0.20.3"
 
 package:
   name: ${{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/emscripten-forge/mambajs/archive/v${{ version }}.tar.gz
-  sha256: 0308891fe95833b086936af41409cec5d87471d4fbc6ece0b82e1d0c3a8f0076
+  sha256: 1822d697c84a3bc003125bb92f8c1916cb58935451efa15c237befde1a97d0b5
 
 build:
   number: 0
