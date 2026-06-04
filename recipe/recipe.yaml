@@ -28,7 +28,15 @@ host:
 - yarn =3
 - nodejs
 run:
-- nodejs
+requirements:
+  build:
+    - yarn =3
+    - nodejs
+  host:
+    - yarn =3
+    - nodejs
+  run:
+    - nodejs
 
 tests:
   - script:
