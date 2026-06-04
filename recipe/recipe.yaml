@@ -15,10 +15,10 @@ build:
 
 requirements:
   build:
-    - yarn
+    - yarn =4
     - nodejs
   host:
-    - yarn
+    - yarn =4
     - nodejs
   run:
     - nodejs
