@@ -15,21 +15,6 @@ build:
 
 requirements:
   build:
-    - yarn
-    - nodejs
-  host:
-    - yarn
-    - nodejs
-  run:
-build:
-- yarn =3
-- nodejs
-host:
-- yarn =3
-- nodejs
-run:
-requirements:
-  build:
     - yarn =3
     - nodejs
   host:
